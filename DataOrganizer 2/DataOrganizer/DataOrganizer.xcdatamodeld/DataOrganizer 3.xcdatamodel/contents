@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23C64" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="FileData" representedClassName="FileData" syncable="YES" codeGenerationType="class">
+        <attribute name="filedata" optional="YES" attributeType="Binary"/>
+        <attribute name="filename" optional="YES" attributeType="Binary"/>
+        <attribute name="filetype" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="FileManager" representedClassName="FileManager" syncable="YES">
+        <attribute name="savedimage" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="FolderData" representedClassName="FolderData" syncable="YES">
+        <attribute name="folderdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="foldername" optional="YES" attributeType="String"/>
+        <attribute name="foldertime" optional="YES" attributeType="String"/>
+    </entity>
+</model>

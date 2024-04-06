@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--File Pre View View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="FilePreViewViewController" id="Y6W-OH-hqX" customClass="FilePreViewViewController" customModule="DataOrganizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ABD-Xa-UPI">
+                                <rect key="frame" x="20" y="0.0" width="373" height="852"/>
+                                <subviews>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZIE-zM-aPM">
+                                        <rect key="frame" x="0.0" y="0.0" width="373" height="852"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </tableView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="ZIE-zM-aPM" secondAttribute="bottom" id="6w4-7e-DTa"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZIE-zM-aPM" secondAttribute="trailing" id="dhx-Vx-ELH"/>
+                                    <constraint firstItem="ZIE-zM-aPM" firstAttribute="leading" secondItem="ABD-Xa-UPI" secondAttribute="leading" id="n9L-xL-sJ1"/>
+                                    <constraint firstItem="ZIE-zM-aPM" firstAttribute="top" secondItem="ABD-Xa-UPI" secondAttribute="top" id="svi-vu-971"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ABD-Xa-UPI" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" constant="20" symbolic="YES" id="MIl-bg-78d"/>
+                            <constraint firstAttribute="trailing" secondItem="ABD-Xa-UPI" secondAttribute="trailing" id="Pih-4p-oBF"/>
+                            <constraint firstAttribute="bottom" secondItem="ABD-Xa-UPI" secondAttribute="bottom" id="eig-3S-nhV"/>
+                            <constraint firstItem="ABD-Xa-UPI" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="nQd-qd-NF7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fileSuperView" destination="ABD-Xa-UPI" id="G0r-e9-vh0"/>
+                        <outlet property="fileTableView" destination="ZIE-zM-aPM" id="hrz-qQ-A4r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="90" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

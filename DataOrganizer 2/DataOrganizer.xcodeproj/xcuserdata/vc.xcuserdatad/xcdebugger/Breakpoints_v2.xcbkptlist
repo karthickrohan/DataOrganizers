@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E5375631-E3A7-48E2-9A74-69AFA5051682"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BDF10B2-15F8-4D47-A177-3131BD7CEFF3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataOrganizer/CollectionViewCell/FolderPreViewCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "textFieldDidEndEditing(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31013628-7A2A-440A-BFB7-21B9F7033FE9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataOrganizer/ViewController/FilePreViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "initializeFetchedResultsController(searchText:folderID:index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "31013628-7A2A-440A-BFB7-21B9F7033FE9 - 98c446b8c19d5711"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataOrganizer.FilePreViewViewController.initializeFetchedResultsController(searchText: Swift.String, folderID: Swift.String, index: Swift.Int) -&gt; ()"
+                  moduleName = "DataOrganizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vc/Downloads/DataOrganizer%202/DataOrganizer/ViewController/FilePreViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1160">
+               </Location>
+               <Location
+                  uuid = "31013628-7A2A-440A-BFB7-21B9F7033FE9 - 98c446b8c19d579d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataOrganizer.FilePreViewViewController.initializeFetchedResultsController(searchText: Swift.String, folderID: Swift.String, index: Swift.Int) -&gt; ()"
+                  moduleName = "DataOrganizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vc/Downloads/DataOrganizer%202/DataOrganizer/ViewController/FilePreViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1160">
+               </Location>
+               <Location
+                  uuid = "31013628-7A2A-440A-BFB7-21B9F7033FE9 - 98c446b8c19d57be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataOrganizer.FilePreViewViewController.initializeFetchedResultsController(searchText: Swift.String, folderID: Swift.String, index: Swift.Int) -&gt; ()"
+                  moduleName = "DataOrganizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vc/Downloads/DataOrganizer%202/DataOrganizer/ViewController/FilePreViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33402C48-CC81-4D6E-A42A-8D904CB76D33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataOrganizer/ViewController/FilePreViewViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "initializeFetchedResultsController(searchText:folderID:index:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "33402C48-CC81-4D6E-A42A-8D904CB76D33 - 98c446b8c19d58b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataOrganizer.FilePreViewViewController.initializeFetchedResultsController(searchText: Swift.String, folderID: Swift.String, index: Swift.Int) -&gt; ()"
+                  moduleName = "DataOrganizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vc/Downloads/DataOrganizer%202/DataOrganizer/ViewController/FilePreViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  uuid = "33402C48-CC81-4D6E-A42A-8D904CB76D33 - 98c446b8c19d5732"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataOrganizer.FilePreViewViewController.initializeFetchedResultsController(searchText: Swift.String, folderID: Swift.String, index: Swift.Int) -&gt; ()"
+                  moduleName = "DataOrganizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vc/Downloads/DataOrganizer%202/DataOrganizer/ViewController/FilePreViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "888">
+               </Location>
+               <Location
+                  uuid = "33402C48-CC81-4D6E-A42A-8D904CB76D33 - 98c446b8c19d57d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataOrganizer.FilePreViewViewController.initializeFetchedResultsController(searchText: Swift.String, folderID: Swift.String, index: Swift.Int) -&gt; ()"
+                  moduleName = "DataOrganizer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vc/Downloads/DataOrganizer%202/DataOrganizer/ViewController/FilePreViewViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "888">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
